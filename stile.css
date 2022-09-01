@@ -1,0 +1,56 @@
+
+
+h1{
+    color: rgb(219, 5, 5);
+    text-shadow: 6px -4px 8px, 0px 0px 8px  #e20a0a
+}
+
+input{
+    padding: 10px;
+    border-radius: 50px ;
+    border: none;
+    background-color: rgb(155, 231, 245);
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em rgb(38, 13, 146);
+    color: rgb(8, 0, 0);
+    font-family: Verdana;
+    font-weight: bold;
+    margin: 5px;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em #800;
+    background: linear-gradient(#FB9575, #F45A38 48%, #EA1502 52%, #F02F17);
+    cursor: grab;
+  }
+  button:active {
+    box-shadow: 0 0 0 60px rgba(0,0,0,.05) inset;
+  }
+
+  li:hover{
+    color: white;
+    font-weight: bold;
+  }
+
+  li{
+    font-family: Verdana;
+    font-weight: bold;
+    list-style-type: none;
+    background-color: rgb(160, 233, 111);
+    border-radius: 50px;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    box-shadow: 0 0 0 60px rgba(0,0,0,0) inset, .1em .1em .2em rgb(38, 13, 146);
+  }
+
+  .color{
+    background-color: blue;
+  }
